@@ -1,1 +1,1 @@
-![LeetCode Stats](https://leetcode-badge-api.herokuapp.com/Jahnavi_BS.png)
+![LeetCode Stats](https://leetcode-badge-api.herokuapp.com/jahnavibs2003.png)
