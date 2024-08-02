@@ -14,7 +14,7 @@ jobs:
         
       - name: Update LeetCode stats
         run: |
-          curl -X GET "https://leetcode-stats-api.herokuapp.com/Jahnavi BS" -o leetcode.json
+          curl -X GET "https://leetcode-stats-api.herokuapp.com/jahnavibs2003" -o leetcode.json
           python update_readme.py
       - name: Commit changes
         run: |
