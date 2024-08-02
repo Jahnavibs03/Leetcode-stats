@@ -18,6 +18,6 @@ with open('README.md', 'r') as file:
 with open('README.md', 'w') as file:
     for line in lines:
         if line.startswith('![LeetCode Stats]'):
-            file.write(f'![LeetCode Stats](https://leetcode-badge-api.herokuapp.com/Jahnavi BS.png)\n')
+            file.write(f'![LeetCode Stats](https://leetcode-badge-api.herokuapp.com/jahnavibs2003.png)\n')
         else:
             file.write(line)
