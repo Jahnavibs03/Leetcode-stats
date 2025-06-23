@@ -3,8 +3,6 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        row = []
-        col = []
         m = len(matrix[0])
         n = len(matrix)
         for i in range(n):
