@@ -14,5 +14,5 @@ class Solution:
                 num += r
             else:
                 num += val[s[i]]
-            print(num)
+            #print(num)
         return num
