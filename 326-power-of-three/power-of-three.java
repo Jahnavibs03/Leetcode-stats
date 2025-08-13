@@ -1,0 +1,32 @@
+class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n <= 0 ){
+            return false;
+        }
+        if(n == 1){
+            return true;
+        }
+        int i = 0;
+        while(n > 0){
+            if(n % 3 != 0){
+                return false;
+            }
+            n = n / 3;
+            System.out.println("n = "+ n);
+            i++;
+            if(n == 1){
+                return true;
+            }
+            if(n % 3 != 0){
+                return false;
+            }
+            n = n / 3;
+            System.out.println("n = "+ n);
+            i++;
+            if(n == 1){
+                return true;
+            }
+        }
+        return false;
+    }
+}
